@@ -1,0 +1,21 @@
+{
+  // 注意：本文档仅支持单行注释，并且'//'前不能有任何非空字符！！！
+
+  // 文档：https://hx.dcloud.net.cn/Tutorial/Language/Snippets?id=%e8%87%aa%e5%ae%9a%e4%b9%89%e4%bb%a3%e7%a0%81%e5%9d%97
+  // 例子:
+  // "console.log": {
+  //  "scope":"source.js",
+  //  "prefix": "logtwo",
+  //  "body": [
+  //      "console.log('$1');"
+  // 	],
+  // 	"triggerAssist": false,
+  // 	"description": "Log output to console"
+  // }
+
+  "💛💙scss注释": {
+    "body": ["/* $0 */"],
+    "prefix": "zs",
+    "scope": "source ! meta.property-list"
+  }
+}
