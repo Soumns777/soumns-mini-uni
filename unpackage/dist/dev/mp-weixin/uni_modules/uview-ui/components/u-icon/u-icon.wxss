@@ -25,6 +25,43 @@
 /* 透明度 */
 /* 文章场景相关 */
 /* uni.scss */
+/* theme.scss */
+/* 初始化盒模型 */
+page.data-v-2ee87dc9,
+page.data-v-2ee87dc9,
+._div.data-v-2ee87dc9,
+._span.data-v-2ee87dc9,
+view.data-v-2ee87dc9,
+text.data-v-2ee87dc9 {
+  box-sizing: border-box;
+}
+/* 去除默认的margin和padding */
+button.data-v-2ee87dc9,
+view.data-v-2ee87dc9 {
+  margin: 0;
+  padding: 0;
+}
+/* bg-center */
+.soumns-bg.data-v-2ee87dc9 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* flex-center  */
+.soumns-flex.data-v-2ee87dc9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soumns-btn.data-v-2ee87dc9 {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  color: #fff;
+}
 view.data-v-2ee87dc9, scroll-view.data-v-2ee87dc9, swiper-item.data-v-2ee87dc9 {
   display: flex;
   flex-direction: column;

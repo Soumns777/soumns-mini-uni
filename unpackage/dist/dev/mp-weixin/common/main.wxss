@@ -35,6 +35,12 @@ view,
 text {
   box-sizing: border-box;
 }
+/* 去除默认的margin和padding */
+button,
+view {
+  margin: 0;
+  padding: 0;
+}
 /* bg-center */
 .soumns-bg {
   background-size: 100% 100%;
@@ -46,6 +52,15 @@ text {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.soumns-btn {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  color: #fff;
 }
 /* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
 .u-line-1 {
@@ -277,5 +292,4 @@ text {
   -webkit-appearance: none;
   background: transparent;
 }
-/*每个页面公共css */
 

@@ -8,6 +8,13 @@ text {
   box-sizing: border-box;
 }
 
+/* 去除默认的margin和padding */
+button,
+view {
+  margin: 0;
+  padding: 0;
+}
+
 /* bg-center */
 .soumns-bg {
   background-size: 100% 100%;
@@ -20,4 +27,14 @@ text {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.soumns-btn {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  color: #fff;
 }

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Soumns",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "soumns-user-msg": "/components/SoumnsUserMsg"
+  }
+}

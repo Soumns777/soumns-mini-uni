@@ -1,0 +1,1 @@
+<view><soumns-navbar vue-id="4a180d5e-1" isShowBack="true" size="24" imgSrc="{{imgUrl}}" bind:__l="__l"></soumns-navbar></view>

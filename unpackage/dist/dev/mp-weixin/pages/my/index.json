@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Soumns",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "soumns-navbar": "/components/SoumnsNavbar"
+  }
+}

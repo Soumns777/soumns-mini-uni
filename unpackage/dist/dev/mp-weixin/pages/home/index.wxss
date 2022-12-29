@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* uni.scss */
+/* theme.scss */
+/* 初始化盒模型 */
+page.data-v-71e217db,
+page.data-v-71e217db,
+._div.data-v-71e217db,
+._span.data-v-71e217db,
+view.data-v-71e217db,
+text.data-v-71e217db {
+  box-sizing: border-box;
+}
+/* 去除默认的margin和padding */
+button.data-v-71e217db,
+view.data-v-71e217db {
+  margin: 0;
+  padding: 0;
+}
+/* bg-center */
+.soumns-bg.data-v-71e217db {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* flex-center  */
+.soumns-flex.data-v-71e217db {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soumns-btn.data-v-71e217db {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  color: #fff;
+}
+.page_box.data-v-71e217db {
+  position: fixed;
+}
+.page_box .my_tab_title.data-v-71e217db {
+  width: 100%;
+  line-height: 44px;
+  position: fixed;
+  top: 0;
+  font-size: 32rpx;
+  color: #fff;
+  font-weight: 500;
+}
+.page_box .my_tab_title .menu_btn.data-v-71e217db {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+.page_box .my_tab_title .menu_btn .arrowleft.data-v-71e217db {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-160%, -50%) !important;
+  -webkit-transform: translate(-160%, -50%) !important;
+}
+.page_box .my_tab_title .menu_btn .text_box.data-v-71e217db {
+  width: 1rpx;
+  height: 20px;
+  background-color: #ddd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+}
+.page_box .my_tab_title .menu_btn .home.data-v-71e217db {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(60%, -50%) !important;
+  -webkit-transform: translate(60%, -50%) !important;
+}
+.page_box .container-top-bg.data-v-71e217db {
+  width: 100%;
+  height: 658rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.page_box .container-top-content.data-v-71e217db {
+  position: absolute;
+  top: 179rpx;
+  left: 30rpx;
+  width: 750rpx;
+  height: 60rpx;
+  display: flex;
+  flex-direction: column;
+}
+.page_box .container-top-content .text1.data-v-71e217db {
+  font-size: 40rpx;
+  color: #fff;
+  margin-bottom: 24rpx;
+}
+.page_box .container-top-content .text2.data-v-71e217db {
+  opacity: 0.8;
+  font-size: 26rpx;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: justify;
+  line-height: 39rpx;
+  margin-right: 30px;
+}
+.page_box .container-card.data-v-71e217db {
+  position: absolute;
+  top: 388rpx;
+  left: 30rpx;
+  width: 690rpx;
+  height: 422rpx;
+}
+.page_box .test-class-btn.data-v-71e217db {
+  width: 400rpx;
+  height: 40px;
+  background-color: greenyellow;
+  border-radius: 40rpx;
+}
+

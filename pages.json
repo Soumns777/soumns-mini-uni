@@ -3,19 +3,65 @@
   "easycom": {
     "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
   },
-  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
     {
-      "path": "pages/index/index",
+      "path": "pages/home/index",
       "style": {
-        // "navigationBarTitleText": ""
+        "navigationBarTitleText": "Soumns",
+        "navigationStyle": "custom", // 隐藏系统导航栏(用户自定义导航栏)
+        "navigationBarTextStyle": "black" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+      }
+    },
+    {
+      "path": "pages/cart/index",
+      "style": {
+        "navigationBarTitleText": "Soumns",
+        // "navigationStyle": "custom", // 隐藏系统导航栏(用户自定义导航栏)
+        "navigationBarTextStyle": "black" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "style": {
+        "navigationBarTitleText": "Soumns",
+        "navigationStyle": "custom", // 隐藏系统导航栏(用户自定义导航栏)
+        "navigationBarTextStyle": "black" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
       }
     }
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "安河桥北啊",
+    "navigationBarTitleText": "Soumns",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
+  // tabBar区域
+  "tabBar": {
+    "color": "#C9C9C9",
+    "selectedColor": "#4c7ef6",
+    "backgroundColor": "#F9FAFC",
+    "borderStyle": "white",
+    "list": [{
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/uploads/home.png",
+        "selectedIconPath": "static/uploads/home_active.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "方案",
+        "iconPath": "static/uploads/cate.png",
+        "selectedIconPath": "static/uploads/cate_active.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "static/uploads/my.png",
+        "selectedIconPath": "static/uploads/my_active.png"
+      }
+    ]
+  },
+
   "uniIdRouter": {}
 }

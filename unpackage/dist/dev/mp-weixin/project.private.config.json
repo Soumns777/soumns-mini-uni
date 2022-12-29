@@ -4,5 +4,25 @@
   "setting": {
     "compileHotReLoad": true
   },
-  "libVersion": "2.26.0"
+  "libVersion": "2.29.0",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "Cart",
+          "pathName": "pages/cart/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "my",
+          "pathName": "pages/my/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
 }
