@@ -128,8 +128,6 @@ export default {
       } else {
         this.menuInfo = uni.getStorageSync('menuInfo');
       }
-
-      console.log('💛💙 menuInfo:', this.menuInfo);
     }
   }
 };
@@ -142,7 +140,7 @@ export default {
 
   .container-top-bg {
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
   }
